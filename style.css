@@ -1,0 +1,334 @@
+.body{
+    padding-left: 130px;
+    margin-right: 130px;
+    margin-top: 60px;
+}
+/* навигация */
+.nav{
+    display: flex;
+    padding-bottom: 67px;
+}
+.logo{
+ height: 59px;
+ padding-right: 293px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav a{
+    color: black;
+}
+.nav_p{
+    padding-right: 40px;
+    font-size: 18px;
+}
+.Burger{
+height: 43px;
+padding-left: 11px;
+padding-top: 8px;
+}
+.Lupa{
+    height: 43px;
+    padding-left: 50px;
+    padding-top: 8px;
+}
+.LogIn{
+    height: 43px;
+    padding-left: 47px;
+    padding-top: 8px;
+}
+/* хедер */
+.background_header{
+    background-image: url(img/горы\ хедер.png);
+    background-size:1240px ;
+    height: 577px;
+    width: 1240px;
+    display: flex;
+} 
+.background_blur{
+    background-image: url(img/горы\ блюр.png);
+    background-size:1280px ;
+    height: 655px;
+    width: 1240px;
+}
+.header_text{
+    padding-left: 135px;
+    padding-top: 185px;
+}
+.header_h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 57px;
+}
+.header_p{
+    font-size: 23px;
+    line-height: 33px;
+}
+.but{
+    background-color: #D3A562;
+    padding: 10px;
+    padding-left: 23px;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.kartinki{
+padding-left: 490px;
+padding-top: 120px;
+}
+.kartinki img{
+    height: 103px;
+}
+.kartinkiImg{
+    padding-bottom: 15px;
+}
+/* мэин */
+.flex{
+    display: flex;
+}
+.first_column{
+    width: 680px;
+    padding-top: 15px;
+    margin-right: 70px; 
+}
+.first_column hr{
+    color:#D3A562;
+    border: 1px;
+    border-style: solid;
+    margin-bottom: 30px;
+}
+.vertical {
+    border-left: 2px solid rgb(164, 164, 164);
+    height: auto;
+    margin-top: 30px;
+}
+h4{
+    font-weight: lighter;
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 16.5px;
+}
+h2{
+    font-family:Arial, sans-serif;
+    font: weight 400px;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+.txt_main{
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.chislo{
+    margin-bottom: 0;
+    font-style:italic ;
+    color:#D3A562;
+}
+ 
+
+.second_column{
+     margin-left: 80px; 
+     padding-top: 17px;
+}
+.second_column h1{
+    font-family:Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 15px;
+    line-height: 42px;
+    margin-bottom: 11px;
+}
+.txt_main2{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.gori{
+    margin-left: 45px;
+    margin-top: 12px;
+    height: 280PX;
+}
+.second_column hr{
+    color:#D3A562;
+    border: 1px;
+    border-style: solid;
+    margin-bottom: 40px;
+}
+.but2{
+    background-color: #D3A562;
+    padding: 10px;
+    padding-left: 23px;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    border-radius: 12px;
+    margin-left: 109px;
+    margin-top: 29px;
+    float: right;
+}
+.txt_main3{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.background_main{
+    background-image: url(img/бали\ самолёт.png);
+    width: 740px;
+    height: 723px;
+    background-size:750px;
+    display: grid;
+    grid-template-rows: 375px 200px;
+}
+.background_main2{
+   background-color: #888C94;
+   width: 425px;
+   height: 348px;
+   color: white;
+   
+}
+.chislo_div{
+    margin-bottom: 0;
+    font-style:italic ;
+    color:#eaeaea;
+}
+.txt_main_div{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 11px;
+    margin-bottom: 25px;
+}
+.txt_div{
+    padding-left: 33px;
+    padding-top: 20px;
+}
+.bali{
+    width: 487px;
+    height: 469px;
+}
+.main_last{
+    padding-top: 67px;
+    display: flex;
+}
+.txt_last{
+ padding-left:20px ;
+}
+.chislo1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-style:italic ;
+    color:#D3A562;
+}
+.txt_last h1{
+ font-family: Arial, sans-serif;
+ font-size: 36px;
+ line-height: 41px;
+ margin-top: 18px;
+ margin-bottom: 0px;
+}
+.txt_last1{
+    width: 602px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 0;
+}
+.but_last{
+    background-color: #D3A562;
+    padding: 10px;
+    padding-left: 23px;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    border-radius: 10px;  
+    margin-top: 50px;
+}
+.line_last{
+    border: 2px solid  #D3A562;
+    margin-top: 46px;
+}
+.button{
+    background-color: #D3A562;
+    padding: 13px 25px;
+    padding-left: 23px;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-left: 550px;
+    font-weight: bold;
+    box-shadow: 0px 10px 40px #D3A562;
+}
+/* подвал */
+footer{
+    padding-top: 66px;
+}
+.nav_f{
+display: flex;
+}
+.logo_f{
+    height: 59px;
+    padding-right: 607px;
+}
+.nav_f a{
+    color: black;
+}
+.nav_f p{
+    padding-right: 28px;
+    font-size: 17px;
+}
+.Burger_f{
+height: 43px;
+padding-top: 8px;
+}
+.contacts{
+    font-size: 20px;
+    padding-top: 65px;
+    display: flex;
+}
+.contacts div{
+ padding-right: 180px;
+}
+.icons{
+    padding-left: 10px;
+    padding-left: 25px;
+}
+.icons div{
+    display: flex;
+}
+.icons img{
+    padding-top: 17px;
+    padding-left: 7px;
+    height: 50px;
+}
+.icons p{
+    padding-left: 30px;
+}
+.footer_last{
+    display: flex;
+    font-family: Arial, sans-serif;
+    padding-left: 2px;
+}
+.kyrs{
+font-size: 18px;
+padding-top: 66px;
+}
+.rub{
+background-color:#888C94;
+padding:15px 20px;
+margin-top: 66px;
+border-radius: 30px;
+color: azure;
+margin-left: 207px;
+font-size: 18px;
+}
+.partneri{
+height: 45px;
+padding-top: 66px;
+padding-left: 200px;
+}
